@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="http://localhost/funnel_v2/files/editorscript/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital@1&display=swap" rel="stylesheet">
+<title>SM Notebook</title>
+<link rel="icon" href="picture9.png" type="image/png" sizes="16x16">
+
+
+</head>
+
+  
+  
+
+
+<style>
+body {font-family: Arial;
+      background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-blue-tech-geometric-graphic-party-sign-in-background-material-backgroundgeometryevening-sign-image_73734.jpg");
+      background-repeat: no-repeat;
+	  background-size: cover;
+	  background-position: fixed;
+}
+
+
+.tab {
+  overflow: hidden;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.tab button {
+  background-color: white;
+  float: right;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: black;
+}
+
+
+.tab button:hover {
+  background-color: #ddd;
+  border: 5px of solid black;
+  color: black;
+}
+
+
+.tab button.active {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: none;
+  border-top: none;
+}
+
+a:link {
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+  float: left;
+  font-family: 'Alegreya';
+
+}
+
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+ 
+</style>
+</head>
+
+
+<div class="content">
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Contact')" >Contact</button>
+  <button class="tablinks" onclick="openCity(event, 'About')"><i class= "fa fa-book"></i> Notebook</button>
+  <button class="tablinks" onclick="openCity(event, 'Home')"title= "Default Page"id="defaultOpen" ><i class= "fa fa-home"></i> Home</button>
+  <div class= "a">
+  <h1><font family= "Algreya" size= "6" color= "white">
+<a href= "index.html" style= "">smtechnology</a>.com</h1>
+</font>
+</div>
+</div>
+<br>
+<br>
+<br>
+
+<hr size= "20" style= "border: none;background-color: transparent;">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital@1&display=swap" rel="stylesheet">
+<div id="Home" class="tabcontent">
+<style>
+ body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+ 
+
+  min-height: 480px;
+  min-width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  
+
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: 0 9px #999;
+  
+  opacity: 0.9;
+  outline: none;
+}
+
+.btn:hover {opacity: 1;}
+
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
+</head>
+<body>
+
+
+<div class="bg-img">
+  <form  class="container">
+    <h1>Login</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+	<div class= "tablinks">
+    <button onclick="openCity(event, 'About')"  class="btn">Login</button>
+  </form>
+</div>
+ </div>
+
+
+
+
+</div>
+
+<div id="About" class="tabcontent">
+  <style>
+		DIV.editor
+        {
+			border:solid 1px #ccc;
+			color: black;
+			background-color:white;
+			padding: 20px;
+			min-height:500px;
+			placeholder: 'Start Editing';
+        }
+
+        .sample-toolbar
+        {
+			border:solid 1px red;
+			background:white;
+			height: 80px;
+			padding: 5px;
+			border-radius:3px;
+        }
+
+        .sample-toolbar > span
+        {
+			cursor:pointer;
+		}
+
+        .sample-toolbar > span:hover
+        {
+			text-decoration:underline;
+			background-color: white;
+			opacity: 0.7;
+		}
+		 
+		
+		
+
+	</style>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+
+	<div  class="sample-toolbar">
+	
+		<a href="javascript:void(0)" onclick="format('bold')"><button class= "btn"><span><i class= "fa fa-bold"></i>old</button></a>
+		<a href="javascript:void(0)" onclick="format('italic')"><button class= "btn"><span><i class= "fa fa-italic"></i>talic</button></a>
+		<a href="javascript:void(0)" onclick="format('strikethrough')"><button class= "btn"><span><i class= "fa fa-strikethrough"></i>Strikethrough</button></a>
+		<a href="javascript:void(0)" onclick="format('insertunorderedlist')"><button class= "btn"><span><i class= "fa fa-list"></i> Orderlist</button></a>
+		<a href="javascript:void(0)" onclick="format('underline')"><button class= "btn"><span><i class= "fa fa-underline"></i> Underline</button></a>
+		
+	
+		<a href="javascript:void(0)" class="fontStyle redo-apply" onclick="document.execCommand( 'redo',false,null);"><button class= "btn"><i class="fa fa-redo"></i> Redo</button></a>
+        <a href="javascript:void(0)" class="fontStyle undo-apply" onclick="document.execCommand( 'undo',false,null);"><span><button class= "btn"><i class="fa fa-undo"></i> Undo</button></span></a>
+		<a href="javascript:void(0)" class="fontStyle align-left" onclick="document.execCommand( 'justifyLeft',false,null);"><button class= "btn">Left Align</button></a>
+        <a href="javascript:void(0)" class="fontStyle align-center" onclick="document.execCommand( 'justifyCenter',false,null);"><button class= "btn">Center Align</button></a>
+        <a href="javascript:void(0)" class="fontStyle align-right" onclick="document.execCommand( 'justifyRight',false,null);"><button class= "btn">Right Align</button></a>
+		
+      <select id="input-font" class="input"  onchange="changeFont (this);" style= "height: 30px;" >
+        <option value="Arial">Arial</option>
+        <option value="Helvetica">Helvetica</option>
+        <option value="Times New Roman">Times New Roman</option>
+        <option value="Sans serif">Sans serif</option>
+        <option value="Courier New">Courier New</option>
+        <option value="Verdana">Verdana</option>
+        <option value="Georgia">Georgia</option>
+        <option value="Palatino">Palatino</option>
+        <option value="Garamond">Garamond</option>
+        <option value="Comic Sans MS">Comic Sans MS</option>
+        <option value="Arial Black">Arial Black</option>
+        <option value="Tahoma">Tahoma</option>
+        <option value="Comic Sans MS">Comic Sans MS</option>
+      </select>
+	  <!-- font size start -->
+	  
+     <select  id="fontSize" onclick="changeSize()" title= "Change Font Size" style= "height: 30px;" >
+	    
+        <option value="1">1</option>      
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+      </select>
+      <!-- font size end -->
+		
+	<a href="javascript:void(0)" class="fontStyle orderedlist" onclick="document.execCommand('insertOrderedList', false, null);"><button class= "btn"><i class="fa fa-list-ol" aria-hidden="true"></i></button></a>
+    <a href="javascript:void(0)" class="fontStyle unorderedlist" onclick="document.execCommand('insertUnorderedList',false, null)"><button class= "btn"><i class="fa fa-list-ul" aria-hidden="true"></i> </button> </a>   
+	<input  class="color-apply" type="color" onchange="chooseColor()" id="myColor" style= "height:20px;width:20px;" title= "Change Text Color"> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+</script>
+<script>
+document.getElementById("defaultOpen").click();
+</script>
+
+
+<p>
+<input type="file" accept="image/*"  onchange="loadFile(event)" style= "width: 100px;">
+
+<img width= "80"  id="output"/>
+
+
+</p>
+
+
+
+  
+
+
+<a href="javascript:void(0)"   id="show"><button  class= "btn"><i class="fas fa-upload"></i> Choose Media</button></a>
+<a href="javascript:void(0)"   id="hide"><button id= "defaultOpen" class= "btn"><i class="fa fa-times" aria-hidden="true"></i> </button></a>
+
+
+<script>
+  var loadFile = function(event) {
+    var reader = new FileReader();
+    reader.onload = function(){
+      var output = document.getElementById('output');
+      output.src = reader.result;
+    };
+    reader.readAsDataURL(event.target.files[0]);
+  };
+</script>
+        
+</div>
+<br>
+
+<div class="editor" id="sampleeditor" >
+	</div>
+	
+
+	<script>
+		window.addEventListener('load', function(){
+			document.getElementById('sampleeditor').setAttribute('contenteditable', 'true');
+			document.getElementById('sampleeditor2').setAttribute('contenteditable', 'true');
+        });
+
+		function format(command, value) {
+			document.execCommand(command, false, value);
+		}
+
+		function setUrl() {
+			var url = document.getElementById('txtFormatUrl').value;
+			var sText = document.getSelection();
+			document.execCommand('insertHTML', false, '<a href="' + url + '" target="_blank">' + sText + '</a>');
+			document.getElementById('txtFormatUrl').value = '';
+		}
+	</script>
+	<script>
+	$('.yourClass').tooltip({show: {effect:"none", delay:0}});
+	</script>
+	
+	<script>
+function chooseColor(){
+      var mycolor = document.getElementById("myColor").value;
+      document.execCommand('foreColor', false, mycolor);
+    }
+
+    function changeFont(){
+      var myFont = document.getElementById("input-font").value;
+      document.execCommand('fontName', false, myFont);
+    }
+
+    function changeSize(){
+      var mysize = document.getElementById("fontSize").value;
+      document.execCommand('fontSize', false, mysize);
+    }
+
+    function checkDiv(){
+      var editorText = document.getElementById("editor1").innerHTML;
+      if(editorText === ''){
+        document.getElementById("editor1").style.border = '5px solid red';
+      }
+    }
+
+    function removeBorder(){
+      document.getElementById("editor1").style.border = '1px solid transparent';
+    }
+    </script>
+	
+	</div>
+
+
+
+<div id="Contact" class="tabcontent">
+<body>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+      <br/>
+      <input type="submit" value="Submit">
+    </form>
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeSoGL8DyAemNFSAtP6JbkPebfzpQwezLmSJgOG7z6r1Qm4zA/viewform?embedded=true" 
+  width="640" height="725" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+document.getElementById("defaultOpen").click();
+</script>
+
+</div>
+<footer>
+<font color= "white">
+<p align= "center"> Copyright 2020 SM</p>
+</footer>
+</html>
+
+
+
+   
